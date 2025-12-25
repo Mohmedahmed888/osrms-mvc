@@ -15,3 +15,4 @@ spl_autoload_register(function($class){
   $file = __DIR__ . '/../' . $rel . '.php';
   if (file_exists($file)) require $file;
 });
+require __DIR__ . '/services.php';
